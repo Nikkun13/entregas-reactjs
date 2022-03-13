@@ -5,13 +5,20 @@
 
 .App-header {
   background-color: #6e5911;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.App-main {
+  min-height: 55vh;
+  background-color: #4a791e;
+  font-size: 2.4rem;
+  color:white;
+}
 
+.App-footer {
+  background-color: #f3971e;
+}

@@ -1,4 +1,5 @@
-import NavBar from './components/NavBar'
+import NavBar from './components/NavBar/NavBar'
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import './App.css';
 
 function App() {
@@ -6,8 +7,13 @@ function App() {
     <div className="App">
       <header className="App-header container">
         <NavBar />
-        <p>buenas</p>
       </header>
+      <main className="App-main container"> 
+      <ItemListContainer greeting="Bienvenidos al Bar de Moe"/>
+      </main>
+      <footer className="App-footer container">
+      <p>Trabajo realizado por Nicolas Arcieri</p>
+      </footer>
     </div>
   );
 }

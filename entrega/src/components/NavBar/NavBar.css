@@ -8,10 +8,35 @@
 .cantinero {
     height:183px;
     width:inherit;
-    background-image: url(./imagenes/cantinero.jpg);
+    background-image: url(../imagenes/cantinero.jpg);
     background-position: top center;
     background-repeat: no-repeat;
   }
+
+.logArea {
+    display: flex;
+    float: right;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 6px;
+}
+
+.carrito {
+    margin-left: 80px;
+    color: black;
+}
+
+.acceso {
+    padding: 10px;
+}
+
+.moes {
+    float: left;
+    padding: 15px;
+    position: relative;
+    padding-top: 60px;
+    
+}
 
 .menu {
     width: 100%;
