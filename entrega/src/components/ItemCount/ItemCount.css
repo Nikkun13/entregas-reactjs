@@ -1,0 +1,41 @@
+.centrado {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tarjeta {
+    width: 14rem;
+    height: 31rem;
+    align-items: center;
+    border: 3px solid darkgoldenrod;
+}
+
+.fondo {
+    bottom: 0px;
+}
+
+.masymenos {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+}
+
+.recuadroSimbolo {
+    color: white;
+}
+
+.recuadroNumero {
+    background-color: white;
+    width: 60px;
+}
+
+.imagenProducto {
+    height: 100%;
+ width: 100%;
+ object-fit: contain;
+ height:150px;
+ width: 150px;
+ align-items: center;
+}

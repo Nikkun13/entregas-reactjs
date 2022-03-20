@@ -13,10 +13,13 @@
 }
 
 .App-main {
-  min-height: 55vh;
   background-color: #4a791e;
+  padding-bottom: 10px;
+}
+
+.lista {
   font-size: 2.4rem;
-  color:white;
+  color: white;
 }
 
 .App-footer {

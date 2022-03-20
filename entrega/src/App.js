@@ -1,18 +1,25 @@
 import NavBar from './components/NavBar/NavBar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ItemCount from './components/ItemCount/ItemCount'
 import './App.css';
 
 function App() {
+
+  const onAdd = (quantity) => {
+    console.log(quantity)
+  }
+
   return (
     <div className="App">
       <header className="App-header container">
         <NavBar />
       </header>
       <main className="App-main container"> 
-      <ItemListContainer greeting="Bienvenidos al Bar de Moe"/>
+        <ItemListContainer className="lista" greeting="Bienvenidos al Bar de Moe"/>
+        <ItemCount initial={0} stock={20} onAdd={onAdd}/>
       </main>
       <footer className="App-footer container">
-      <p>Trabajo realizado por Nicolas Arcieri</p>
+        <p>Trabajo realizado por Nicolas Arcieri</p>
       </footer>
     </div>
   );
