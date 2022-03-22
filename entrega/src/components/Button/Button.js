@@ -1,4 +1,4 @@
-const Button = ( {label}) => {
+const Button = ( {label} ) => {
     return <button className="btn btn-block btn-warning">{label}</button>
 }
 

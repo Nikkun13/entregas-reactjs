@@ -5,9 +5,9 @@ import './App.css';
 
 function App() {
 
-  const onAdd = (quantity) => {
-    console.log(quantity)
-  }
+  // const onAdd = (quantity) => {
+  //   console.log(quantity)
+  // }
 
   return (
     <div className="App">
@@ -16,7 +16,6 @@ function App() {
       </header>
       <main className="App-main container"> 
         <ItemListContainer className="lista" greeting="Bienvenidos al Bar de Moe"/>
-        <ItemCount initial={0} stock={20} onAdd={onAdd}/>
       </main>
       <footer className="App-footer container">
         <p>Trabajo realizado por Nicolas Arcieri</p>
