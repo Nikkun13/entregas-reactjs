@@ -1,20 +1,9 @@
-.centrado {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .tarjeta {
-    width: 14rem;
-    height: 31rem;
+    width: 17rem;
+    height: 34rem;
     align-items: center;
     border: 3px solid darkgoldenrod;
 }
-
-.fondo {
-    bottom: 0px;
-}
-
 
 .imagenProducto {
     height: 100%;
@@ -23,4 +12,8 @@
  height:150px;
  width: 150px;
  align-items: center;
+}
+
+.detalles {
+    margin-bottom: 5px;
 }

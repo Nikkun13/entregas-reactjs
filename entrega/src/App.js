@@ -1,13 +1,8 @@
 import NavBar from './components/NavBar/NavBar'
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import ItemCount from './components/ItemCount/ItemCount'
 import './App.css';
 
 function App() {
-
-  // const onAdd = (quantity) => {
-  //   console.log(quantity)
-  // }
 
   return (
     <div className="App">

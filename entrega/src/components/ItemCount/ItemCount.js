@@ -29,6 +29,4 @@ const ItemCount = ({initial = 0,stock,onAdd}) => {
     )
 }
 
-// Aca use la misma parte para poner los 3 productos, obviamente no se hace asi, solo queria ver como quedaba armado en la pagina
-
 export default ItemCount
